@@ -5,7 +5,7 @@
 
 
 ## Useful Links:
-### Awesome Tutorials about Transformer amd ViT
+### Awesome Tutorials about Transformer and ViT
 - [Transformer Model (1/2): Attention Layers](https://www.youtube.com/watch?v=FC8PziPmxnQ)
 - [Transformer Model (2/2): Build a Deep Neural Network](https://www.youtube.com/watch?v=J4H6A4-dvhE)
 

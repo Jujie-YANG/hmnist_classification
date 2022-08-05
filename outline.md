@@ -1,13 +1,14 @@
 # The outline of the essay
 
 ## Introduction
+Recent years, skin cancer has been one of the most common cancers worldwide. Skin cancer often develops from early pigmented lesions. This often requires a large number of dermatologists to diagnose whether the pigmented lesions are benign or cancerous. Therefore, if dermoscopy images can assist dermatologists to understand the imaging features of skin cancer and quickly gain experience in differential diagnosis, it will not only improve the efficiency and accuracy of diagnosis, but also save a lot of human resources. Dermoscopy images are also a suitable source for training artificial neural networks to automatically diagnose pigmented skin lesions. This paper will use Vision Transformer (ViT) related state-of-the-art structures compared with Convolutional Neural Networks (CNN) to classify skin disease types.
+
 The skin cancer database used is HAM10000. 
 
 CNN limitation: Convolutional neural networks (CNN), the most prevailing architecture for deep-learning based medical image analysis, are still functionally limited by their intrinsic inductive biases and inadequate receptive fields.
 
-Dermoscopy images are a suitable source for training artificial neural networks to automatically diagnose pigmented skin lesions.
 
-The aim is to help young dermatology residents understand the imaging features of skin cancer outside of office hours and rapidly gain experience in differential diagnosis
+
 
 ## Related Work
 1. 2019: 
