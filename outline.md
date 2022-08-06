@@ -1,7 +1,7 @@
 # The outline of the essay
 
 ## Introduction
-Recent years, skin cancer has been one of the most common cancers worldwide. Skin cancer often develops from early pigmented lesions. This often requires a large number of dermatologists to pathologically diagnose whether the pigmented lesions are benign or cancerous. Therefore, if dermoscopy images can assist dermatologists to understand the imaging features of skin cancer and quickly gain experience in differential diagnosis, it will not only improve the efficiency and accuracy of diagnosis, but also save a lot of human resources. Dermoscopy images are also a suitable source for training artificial neural networks to automatically diagnose pigmented skin lesions. This paper will use Vision Transformer (ViT) related state-of-the-art structures compared with Convolutional Neural Networks (CNN) to classify skin disease types.
+Recent years, skin cancer has been one of the most common cancers worldwide. Skin cancer often develops from early pigmented lesions. This often requires a large number of dermatologists to pathologically diagnose whether the pigmented lesions are benign or cancerous. Therefore, if dermoscopy images can assist dermatologists to understand the imaging features of skin cancer and quickly gain experience in differential diagnosis, it will not only improve the efficiency and accuracy of diagnosis, but also save a lot of human resources. Dermoscopy images are also a suitable source for training artificial neural networks to automatically diagnose pigmented skin lesions. This article will compare the state-of-the-art structures related to visual transducers (ViT) with convolutional neural networks (CNN) for classification of skin disease types.
 
 The skin cancer database used is HAM10000. 
 
@@ -65,7 +65,7 @@ CNN limitation: Convolutional neural networks (CNN), the most prevailing archite
     - experiment results (metric): Accuracy, Precision, Recall, F1-score
 
 - Fined Tuned ViT Analysis:
-    - Compare different loss function
+    - Compare different loss function (timm.loss.LabelSmoothingCrossEntropy vs nn.CrossEntropyLoss)
     - Compare different optimizer (torch.optim.SGD vs torch.optim.Adam)
     - Compare different regularization (dropout vs L2/weight decay vs L1)
      

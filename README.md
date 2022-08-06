@@ -15,6 +15,10 @@
 - ViT Documentation:
     - [timm Pytorch Documentation](https://rwightman.github.io/pytorch-image-models/)
 
+- ViT example code notebook:
+    [Kaggle: Vision Transformers in PyTorch | DeIT](https://www.kaggle.com/code/pdochannel/vision-transformers-in-pytorch-deit/notebook?scriptVersionId=85324242)
+    
+
 ### Small points
 
 - Training:
