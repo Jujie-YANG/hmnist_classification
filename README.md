@@ -13,9 +13,14 @@
 
 
 ### Small points
-- [14- Pytorch: What is model.eval?](https://www.youtube.com/watch?v=GzjRE3MUx6Q) - model.eval() disables dropout and batch normalization, the gradients are still computed as model.train(). model.eval() is necessary for inference.
+- [YouTube Video: 14- Pytorch: What is model.eval?](https://www.youtube.com/watch?v=GzjRE3MUx6Q) - model.eval() disables dropout and batch normalization, the gradients are still computed as model.train(). model.eval() is necessary for inference.
 
-- [Pytorch: torch.utils.data.Dataset, torchvision.transforms, torch.utils.data.DataLoader, torch.utils.data.sampler](https://blog.csdn.net/zhenaoxi1077/article/details/80953227)
+- [第五章——Pytorch中常用的工具](https://blog.csdn.net/zhenaoxi1077/article/details/80953227)：torch.utils.data.Dataset, torchvision.transforms, torch.utils.data.DataLoader, torch.utils.data.sampler
 
-plt.imshow(np.transpose(img.numpy(),(1,2,0))) -- plt: (width, height, channel)
-torch.size(3,64,64) -> (64,64,3)
+- [Regularization in Deep Learning — L1, L2, and Dropout](https://towardsdatascience.com/regularization-in-deep-learning-l1-l2-and-dropout-377e75acc036#:~:text=Regularization%20is%20a%20set%20of,data%20from%20the%20problem%20domain.): Regularization is a set of techniques that can prevent overfitting in neural networks and thus improve the accuracy of a Deep Learning model when facing completely new data from the problem domain.
+
+- [Use of ‘model.eval()’ and ‘with torch.no_grad()’ in PyTorch model evaluate](https://androidkt.com/use-of-model-eval-and-with-torch-no_grad-in-pytorch-model-evaluate/): Dropout Layer, Batch Normalization Layer(nn.BatchNorm2d())
+
+
+## Notes
+- ```plt.imshow(np.transpose(img.numpy(),(1,2,0)))``` -- plt: (width, height, channel) e.g. torch.size(3,64,64) -> (64,64,3)

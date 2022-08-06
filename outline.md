@@ -66,8 +66,8 @@ CNN limitation: Convolutional neural networks (CNN), the most prevailing archite
 
 - Fined Tuned ViT Analysis:
     - Compare different loss function
-    - Compare different optimizer (torch.optim.SGD vs )
-    - Compare different regularization (dropout vs L2 vs L1)
+    - Compare different optimizer (torch.optim.SGD vs torch.optim.Adam)
+    - Compare different regularization (dropout vs L2/weight decay vs L1)
      
      
 
