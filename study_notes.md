@@ -3,6 +3,10 @@
 - ### DataLoader(Preprocessing):
   - [第五章——Pytorch中常用的工具](https://blog.csdn.net/zhenaoxi1077/article/details/80953227)：torch.utils.data.Dataset, torchvision.transforms, torch.utils.data.DataLoader, torch.utils.data.sampler
 
+  - [```torchvision.transforms.RandomApply(transforms, p=0.5)```](https://pytorch.org/vision/stable/generated/torchvision.transforms.RandomApply.html#torchvision.transforms.RandomApply): Apply randomly a list of transformations with a given probability
+  [```torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)```](https://pytorch.org/vision/main/generated/torchvision.transforms.ColorJitter.html): Randomly change the brightness, contrast, saturation and hue of an image.
+  [```torchvision.transforms.RandomErasing(p=0.5, scale=(0.02, 0.33), ratio=(0.3, 3.3), value=0, inplace=False)```]: Randomly selects a rectangle region in an torch Tensor image and erases its pixels.
+
 - ### Define Model:
 
 
