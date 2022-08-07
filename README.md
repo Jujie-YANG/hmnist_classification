@@ -28,13 +28,26 @@
 
 - ### Training:
 
-    - Optimizer
+    - Optimizer (Update params):
         - [Understand PyTorch optimizer.param_groups with Examples – PyTorch Tutorial](https://www.tutorialexample.com/understand-pytorch-optimizer-param_groups-with-examples-pytorch-tutorial/): optimizer.param_groups is a python list, which contains a dictionary
 
+        - [Kaggle explain: One-cycle learning rate schedulers](https://www.kaggle.com/code/residentmario/one-cycle-learning-rate-schedulers/notebook): This cyclic learning rate policy is meant to be applied over one entire learning cycle: **e.g. one epoch**. Fast.AI calls this the one cycle training. After each cycle, you are supposed to re-apply the learning rate finder to find new good values, and then fit another cycle, until no more training occurs; hence the name. Use ```optimizer.step()``` before ```scheduler.step()```. Also, for ```OneCycleLR```, you need to run ```scheduler.step()``` after every step.
 
-  - [Regularization in Deep Learning — L1, L2, and Dropout](https://towardsdatascience.com/regularization-in-deep-learning-l1-l2-and-dropout-377e75acc036#:~:text=Regularization%20is%20a%20set%20of,data%20from%20the%20problem%20domain.): Regularization is a set of techniques that can prevent overfitting in neural networks and thus improve the accuracy of a Deep Learning model when facing completely new data from the problem domain. Normalisation adjusts the data; regularisation adjusts the prediction function.
-  - [Deep learning basics — weight decay](https://medium.com/analytics-vidhya/deep-learning-basics-weight-decay-3c68eb4344e9): ```optimizer = torch.optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-4)```
-  - [Understanding Gradient Clipping (and How It Can Fix Exploding Gradients Problem)](https://neptune.ai/blog/understanding-gradient-clipping-and-how-it-can-fix-exploding-gradients-problem): Gradient clipping-by-value + Gradient clipping-by-norm
+        - [```optimizer.step()```](https://pytorch.org/docs/stable/optim.html#optimizer-step): Below is a simplified version supported by most optimizers. The function can be called once the gradients are computed using e.g. backward()
+            ```
+            for input, target in dataset:
+                optimizer.zero_grad()
+                output = model(input)
+                loss = loss_fn(output, target)
+                loss.backward()
+                optimizer.step()
+            ```
+
+    - Prevent overfitting / avoid exploding gradient (Optimizer):
+        - [Regularization in Deep Learning — L1, L2, and Dropout](https://towardsdatascience.com/regularization-in-deep-learning-l1-l2-and-dropout-377e75acc036#:~:text=Regularization%20is%20a%20set%20of,data%20from%20the%20problem%20domain.): Regularization is a set of techniques that can prevent overfitting in neural networks and thus improve the accuracy of a Deep Learning model when facing completely new data from the problem domain. Normalisation adjusts the data; regularisation adjusts the prediction function.
+        - [Deep learning basics — weight decay](https://medium.com/analytics-vidhya/deep-learning-basics-weight-decay-3c68eb4344e9): ```optimizer = torch.optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-4)``` Aim: 1. To prevent overfitting 2. To keep the weights small and avoid exploding gradient
+    
+        - [Understanding Gradient Clipping (and How It Can Fix Exploding Gradients Problem)](https://neptune.ai/blog/understanding-gradient-clipping-and-how-it-can-fix-exploding-gradients-problem): Gradient clipping-by-value + Gradient clipping-by-norm e.g. ```nn.utils.clip_grad_value_(model.parameters(), grad_clip)```
 
 - ### Inference/Validation:
 
@@ -57,12 +70,3 @@
 
 - [torch.squeeze and torch.unsqueeze – usage and code examples](https://linuxpip.org/pytorch-squeeze-unsqueeze/): The **squeeze** method "returns a tensor with all the dimensions of input of size 1 removed", while **unsqueeze** "returns a new tensor with a dimension of size one inserted at the specified position"
 
-- [```optimizer.step()```](https://pytorch.org/docs/stable/optim.html#optimizer-step): Below is a simplified version supported by most optimizers. The function can be called once the gradients are computed using e.g. backward()
-    ```
-    for input, target in dataset:
-        optimizer.zero_grad()
-        output = model(input)
-        loss = loss_fn(output, target)
-        loss.backward()
-        optimizer.step()
-    ```
