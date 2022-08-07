@@ -24,7 +24,7 @@
   - [第五章——Pytorch中常用的工具](https://blog.csdn.net/zhenaoxi1077/article/details/80953227)：torch.utils.data.Dataset, torchvision.transforms, torch.utils.data.DataLoader, torch.utils.data.sampler
 
 - ### Define Model:
-    
+
 
 - ### Training:
 
@@ -57,3 +57,12 @@
 
 - [torch.squeeze and torch.unsqueeze – usage and code examples](https://linuxpip.org/pytorch-squeeze-unsqueeze/): The **squeeze** method "returns a tensor with all the dimensions of input of size 1 removed", while **unsqueeze** "returns a new tensor with a dimension of size one inserted at the specified position"
 
+- [```optimizer.step()```](https://pytorch.org/docs/stable/optim.html#optimizer-step): Below is a simplified version supported by most optimizers. The function can be called once the gradients are computed using e.g. backward()
+    ```
+    for input, target in dataset:
+        optimizer.zero_grad()
+        output = model(input)
+        loss = loss_fn(output, target)
+        loss.backward()
+        optimizer.step()
+    ```
