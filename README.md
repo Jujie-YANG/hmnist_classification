@@ -20,3 +20,10 @@
 
     - [Kaggle: Swin Transformer in PyTorch](https://www.kaggle.com/code/pdochannel/swin-transformer-in-pytorch/notebook): This notebook trains a Vision Transformer on the Butterfly dataset.
     
+
+
+## Params
+
+Swin-ViT: 
+- resize:(224,224)
+- batch_size = 64 (RuntimeError: CUDA out of memory. Tried to allocate 74.00 MiB (GPU 0; 14.76 GiB total capacity; 13.40 GiB already allocated; 67.75 MiB free; 13.58 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF)
