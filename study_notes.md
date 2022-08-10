@@ -54,3 +54,18 @@
 
 - [torch.squeeze and torch.unsqueeze – usage and code examples](https://linuxpip.org/pytorch-squeeze-unsqueeze/): The **squeeze** method "returns a tensor with all the dimensions of input of size 1 removed", while **unsqueeze** "returns a new tensor with a dimension of size one inserted at the specified position"
 
+
+## Learning Materials about Transformer
+### - Tutorials
+- [Bilibili:唐宇迪带你从零详细解读Transformer模型](https://www.bilibili.com/video/BV1Pu411Q7jD?spm_id_from=333.999.0.0&vd_source=4e20016bd1355fe9ad9e32194a97d42a)
+
+- [YouTube:BERT Neural Network - EXPLAINED!](https://www.youtube.com/watch?v=xI0HHN5XKDo)
+
+### - Blogs
+- [Transformers Explained Visually (Part 1): Overview of Functionality](https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452)
+
+- [Transformers Explained Visually (Part 2): How it works, step-by-step](https://towardsdatascience.com/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34)
+
+- [Transformers Explained Visually (Part 3): Multi-head Attention, deep dive](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
+
+- [Transformers Explained Visually — Not Just How, but Why They Work So Well](https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3)
