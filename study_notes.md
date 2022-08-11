@@ -69,3 +69,8 @@
 - [Transformers Explained Visually (Part 3): Multi-head Attention, deep dive](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
 
 - [Transformers Explained Visually — Not Just How, but Why They Work So Well](https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3)
+
+## Learning Materials about CNN
+### - Websites
+- [PyTorch official website: Train a CNN classifier](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) and its corresponding [colab code notebook](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/17a7c7cb80916fcdf921097825a0f562/cifar10_tutorial.ipynb?hl=en#scrollTo=Mwf3hCS855qn)
+
