@@ -57,9 +57,12 @@
 
 ## Learning Materials about Transformer
 ### - Tutorials
-- [Bilibili:唐宇迪带你从零详细解读Transformer模型](https://www.bilibili.com/video/BV1Pu411Q7jD?spm_id_from=333.999.0.0&vd_source=4e20016bd1355fe9ad9e32194a97d42a)
+- [Bilibili: 唐宇迪带你从零详细解读Transformer模型](https://www.bilibili.com/video/BV1Pu411Q7jD?spm_id_from=333.999.0.0&vd_source=4e20016bd1355fe9ad9e32194a97d42a)
 
-- [YouTube:BERT Neural Network - EXPLAINED!](https://www.youtube.com/watch?v=xI0HHN5XKDo)
+- [YouTube: BERT Neural Network - EXPLAINED!](https://www.youtube.com/watch?v=xI0HHN5XKDo)
+
+- [YouTube: Transformer Model (1/2): Attention Layers](https://www.youtube.com/watch?v=FC8PziPmxnQ)
+- [YouTube: Transformer Model (2/2): Build a Deep Neural Network](https://www.youtube.com/watch?v=J4H6A4-dvhE)
 
 ### - Blogs
 - [Transformers Explained Visually (Part 1): Overview of Functionality](https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452)
