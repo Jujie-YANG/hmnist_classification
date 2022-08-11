@@ -42,6 +42,8 @@ CNN limitation: Convolutional neural networks (CNN), the most prevailing archite
 
 
 ## Method
+- CNN 残差连接，[how design]
+    - [Bird by Bird using Deep Learning](https://towardsdatascience.com/bird-by-bird-using-deep-learning-4c0fa81365d7)
 - What is [Vision transformer](https://paperswithcode.com/method/vision-transformer)?
 
     The Vision Transformer, or ViT, is a model for image classification that employs a Transformer-like architecture over patches of the image. An image is split into fixed-size patches, each of them are then linearly embedded, position embeddings are added, and the resulting sequence of vectors is fed to a standard Transformer encoder. In order to perform classification, the standard approach of adding an extra learnable “classification token” to the sequence is used.
