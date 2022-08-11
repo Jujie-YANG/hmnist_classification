@@ -74,3 +74,16 @@
 ### - Websites
 - [PyTorch official website: Train a CNN classifier](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) and its corresponding [colab code notebook](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/17a7c7cb80916fcdf921097825a0f562/cifar10_tutorial.ipynb?hl=en#scrollTo=Mwf3hCS855qn)
 
+
+## Colab Use
+- [How to save our model to Google Drive and reuse it](https://medium.com/@ml_kid/how-to-save-our-model-to-google-drive-and-reuse-it-2c1028058cb2):
+```
+# Mount Google Drive
+from google.colab import drive
+drive.mount('/content/drive', force_remount=True)
+# Save
+torch.save(model.state_dict(), '/content/drive/MyDrive/kaggle/save_model/deit_tiny_patch16_224.pth')
+# Load
+model.load_state_dict(torch.load(path))
+```
+
