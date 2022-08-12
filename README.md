@@ -11,9 +11,12 @@
     - [Transformer Model (2/2): Build a Deep Neural Network](https://www.youtube.com/watch?v=J4H6A4-dvhE)
 
 - ### ViT Documentation:
-    - [timm Pytorch Documentation](https://rwightman.github.io/pytorch-image-models/)
+    - [timm Pytorch Documentation](https://rwightman.github.io/pytorch-image-models/): PyTorch Image Models (timm) is a collection of image models, layers, utilities, optimizers, schedulers, data-loaders / augmentations, and reference training / validation scripts that aim to pull together a wide variety of SOTA models with ability to reproduce ImageNet training results. -- All model architecture families include variants with pretrained weights.
 
 - ### GitHub models:
+    - [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models): 
+    About: PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more refer to the [timm documentation](https://rwightman.github.io/pytorch-image-models/)
+
 
 
 - ### Code notebook:
