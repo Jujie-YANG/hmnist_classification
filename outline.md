@@ -1,16 +1,16 @@
 # The outline of the essay
 
 ## Introduction
-Recent years, skin cancer has been one of the most common cancers worldwide. Skin cancer often develops from early pigmented lesions. This often requires a large number of dermatologists to pathologically diagnose whether the pigmented lesions are benign or cancerous. Therefore, if dermoscopy images can assist dermatologists to understand the imaging features of skin cancer and quickly gain experience in differential diagnosis, it will not only improve the efficiency and accuracy of diagnosis, but also save a lot of human resources. Dermoscopy images are also a suitable source for training artificial neural networks to automatically diagnose pigmented skin lesions. This article will compare the state-of-the-art structures related to visual transducers (ViT) with convolutional neural networks (CNN) for classification of skin disease types.
+Recent years, skin cancer has been one of the most common cancers worldwide. Skin cancer often develops from early pigmented lesions. This often requires a large number of dermatologists to pathologically diagnose whether the pigmented lesions are benign or cancerous. Therefore, if dermoscopy images can assist dermatologists to understand the imaging features of skin cancer and quickly gain experience in differential diagnosis, it will not only improve the efficiency and accuracy of diagnosis, but also save a lot of human resources. Dermoscopy images are also a suitable source for training artificial neural networks to automatically diagnose pigmented skin lesions. This article will compare the state-of-the-art structures related to vision transformer (ViT) with convolutional neural networks (CNN) for classification of skin disease types.
 
 The skin cancer database used is HAM10000. 
 
-CNN limitation: Convolutional neural networks (CNN), the most prevailing architecture for deep-learning based medical image analysis, are still functionally limited by their intrinsic inductive biases and inadequate receptive fields.
-
-
+VGG16 is a pre-trained CNN model which is used for image classification. It is trained on a large and varied dataset and fine-tuned to fit image classification datasets with ease.
 
 
 ## Related Work
+CNN limitation: Convolutional neural networks (CNN), the most prevailing architecture for deep-learning based medical image analysis, are still functionally limited by their intrinsic inductive biases and inadequate receptive fields.
+
 1. 2019: 
     - CNN: 
         - Indonesia researchers use CNN develop the identification system in 2019. The accuracy of training and testing reach 80% and 78% respectively.
