@@ -24,9 +24,9 @@
 
         Significance is further explained in [Yannic Kilcher's](https://www.youtube.com/watch?v=TrdevFK_am4) video.
 
-        For a Pytorch implementation with pretrained models, please see Ross Wightman's repository [here(the same as timm implementation)](https://github.com/rwightman/pytorch-image-models)
+        For a Pytorch implementation with pretrained models, please see Ross Wightman's repository [here(timm implementation)](https://github.com/rwightman/pytorch-image-models)
 
-        The official Jax repository is [here(Vision Transformer and MLP-Mixer Architectures)](https://github.com/google-research/vision_transformer).
+        The official Jax repository is [here(Google's repository for the ViT model)](https://github.com/google-research/vision_transformer).
 
 - ### Code notebook:
     - CNN:
