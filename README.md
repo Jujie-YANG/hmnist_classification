@@ -13,6 +13,10 @@
 - ### ViT Documentation:
     - [timm Pytorch Documentation](https://rwightman.github.io/pytorch-image-models/): Py**T**orch **Im**age **M**odels (timm) is a collection of image models, layers, utilities, optimizers, schedulers, data-loaders / augmentations, and reference training / validation scripts that aim to pull together a wide variety of SOTA models with ability to reproduce ImageNet training results. -- All model architecture families include variants with pretrained weights.
 
+    [pytorch-image-models/timm/models/vision_transformer.py](https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/vision_transformer.py)
+
+    Reference code and pretrained weights:[Google's repository for the ViT model](https://github.com/google-research/vision_transformer)
+
 - ### GitHub models:
     - [timm implementation](https://github.com/rwightman/pytorch-image-models): 
     
@@ -33,7 +37,7 @@
         Pytorch reimplementation of [Google's repository for the ViT model](https://github.com/google-research/vision_transformer) that was released with the paper [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 
         This paper show that Transformers applied directly to image patches and pre-trained on large datasets work really well on image recognition task.
-        
+
 - ### Code notebook:
     - CNN:
         - [Kaggle: ResNet9 HMNIST Classification](https://www.kaggle.com/code/sidharthsinha/resnet9-hmnist-classification)
