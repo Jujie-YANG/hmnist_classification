@@ -90,3 +90,6 @@ torch.save(model.state_dict(), '/content/drive/MyDrive/kaggle/save_model/deit_ti
 model.load_state_dict(torch.load(path))
 ```
 
+## Others
+- [GitHub repo: pytorch/examples](https://github.com/pytorch/examples):  is a repository showcasing examples of using PyTorch in Vision, Text, Reinforcement Learning, etc.
+
