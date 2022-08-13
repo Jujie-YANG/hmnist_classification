@@ -28,6 +28,12 @@
 
         The official Jax repository is [here(Google's repository for the ViT model)](https://github.com/google-research/vision_transformer).
 
+    - [jeonsworld/ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch):
+        
+        Pytorch reimplementation of [Google's repository for the ViT model](https://github.com/google-research/vision_transformer) that was released with the paper [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
+
+        This paper show that Transformers applied directly to image patches and pre-trained on large datasets work really well on image recognition task.
+        
 - ### Code notebook:
     - CNN:
         - [Kaggle: ResNet9 HMNIST Classification](https://www.kaggle.com/code/sidharthsinha/resnet9-hmnist-classification)
