@@ -14,10 +14,19 @@
     - [timm Pytorch Documentation](https://rwightman.github.io/pytorch-image-models/): Py**T**orch **Im**age **M**odels (timm) is a collection of image models, layers, utilities, optimizers, schedulers, data-loaders / augmentations, and reference training / validation scripts that aim to pull together a wide variety of SOTA models with ability to reproduce ImageNet training results. -- All model architecture families include variants with pretrained weights.
 
 - ### GitHub models:
-    - [rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models): 
-    About: PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more refer to the [timm documentation](https://rwightman.github.io/pytorch-image-models/)
+    - [timm implementation](https://github.com/rwightman/pytorch-image-models): 
+    
+        About: PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more refer to the [timm documentation](https://rwightman.github.io/pytorch-image-models/)
 
+    - [lucidrains implementation](https://github.com/lucidrains/vit-pytorch): 
+        
+        About: Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch.
 
+        Significance is further explained in [Yannic Kilcher's](https://www.youtube.com/watch?v=TrdevFK_am4) video.
+
+        For a Pytorch implementation with pretrained models, please see Ross Wightman's repository [here(the same as timm implementation)](https://github.com/rwightman/pytorch-image-models)
+
+        The official Jax repository is [here(Vision Transformer and MLP-Mixer Architectures)](https://github.com/google-research/vision_transformer).
 
 - ### Code notebook:
     - CNN:
