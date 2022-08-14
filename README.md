@@ -62,7 +62,7 @@
 - ### CNN
     - #### Resnet
     - #### vgg
-    - #### inception-V3
+    - #### inception-V3[https://arxiv.org/abs/1512.00567]
 
 - ### ViT 
     - #### DeIT: (deit_tiny_patch16_224.ipynb)
