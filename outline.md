@@ -9,8 +9,6 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
 
 
 ## Related Work
-CNN limitation: Convolutional neural networks (CNN), the most prevailing architecture for deep-learning based medical image analysis, are still functionally limited by their intrinsic inductive biases and inadequate receptive fields.
-
 1. 2019: 
     - CNN: 
         - Indonesia researchers use CNN develop the identification system in 2019. The accuracy of training and testing reach 80% and 78% respectively.
@@ -57,11 +55,9 @@ CNN limitation: Convolutional neural networks (CNN), the most prevailing archite
 
 
 
-
-
-
 ## Experiment
 - CNN vs ViT
+    - CNN limitation: Convolutional neural networks (CNN), the most prevailing architecture for deep-learning based medical image analysis, are still functionally limited by their intrinsic inductive biases and inadequate receptive fields.
 
 - ViT Analysis:
     - experiment results (metric): Accuracy, Precision, Recall, F1-score
