@@ -19,7 +19,7 @@
     [pytorch-image-models/timm/models/vision_transformer.py](https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/vision_transformer.py)
 
     Reference code and pretrained weights:[Google's repository for the ViT model](https://github.com/google-research/vision_transformer)
-- ### GitHub models:
+- ### GitHub models:(Remember to reference them if written on a paper)
 
   - ***[timm implementation](https://github.com/rwightman/pytorch-image-models)***:
 
@@ -46,7 +46,8 @@
     - PatchConvnet (Augmenting Convolutional networks with attention-based aggregation) [bib]
     - 3Things (Three things everyone should know about Vision Transformers), ECCV 2022 [bib]
     - DeiT III (DeiT III: Revenge of the ViT), ECCV 2022 [**bib**]
-    
+
+
 - ### Code notebook:
 
   - CNN:
