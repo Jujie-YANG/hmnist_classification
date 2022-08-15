@@ -56,8 +56,8 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
 
 
 ## Experiment
-- CNN vs ViT
-    - CNN limitation: Convolutional neural networks (CNN), the most prevailing architecture for deep-learning based medical image analysis, are still functionally limited by their intrinsic inductive biases and inadequate receptive fields.
+- CNN Analysis:
+    - experiment results (metric): Accuracy, Precision, Recall, F1-score
 
 - ViT Analysis:
     - experiment results (metric): Accuracy, Precision, Recall, F1-score
@@ -66,11 +66,14 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
     - Compare different loss function (timm.loss.LabelSmoothingCrossEntropy vs nn.CrossEntropyLoss)
     - Compare different optimizer (torch.optim.SGD vs torch.optim.Adam)
     - Compare different regularization (dropout vs L2/weight decay vs L1)
-     
-     
+
+- Discussion:
+    - CNN limitation: Convolutional neural networks (CNN), the most prevailing architecture for deep-learning based medical image analysis, are still functionally limited by their intrinsic inductive biases and inadequate receptive fields.
 
 
 ## Conclusion 
 - Future Work:
     - Preprocessing: remove hair to enhance the training accuracy further
     
+## Other materials
+- [Face Transformer for Recognition](https://arxiv.org/pdf/2103.14803.pdf): have a look at the Method and Experiment parts
