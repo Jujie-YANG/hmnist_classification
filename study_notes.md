@@ -57,6 +57,9 @@
 ## Metrics
 - [F1 Score vs ROC AUC vs Accuracy vs PR AUC: Which Evaluation Metric Should You Choose?](https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
 
+- [Accuracy vs. F1-Score](https://medium.com/analytics-vidhya/accuracy-vs-f1-score-6258237beca2): **1.** Accuracy is used when the True Positives and True negatives are more important while F1-score is used when the False Negatives and False Positives are crucial **2.** Accuracy can be used when the class distribution is similar while F1-score is a better metric when there are imbalanced classes as in the above case. **3.** In most real-life classification problems, imbalanced class distribution exists and thus F1-score is a better metric to evaluate our model on.
+
+
 - [sklearn.metrics.precision_recall_fscore_support](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html): Compute precision, recall, F-measure and support for each class.
 
 ## Learning Materials about Transformer
