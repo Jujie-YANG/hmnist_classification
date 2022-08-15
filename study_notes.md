@@ -56,6 +56,8 @@
 
 - [sklearn.metrics.precision_recall_fscore_support](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html): Compute precision, recall, F-measure and support for each class.
 
+## Metrics
+- [F1 Score vs ROC AUC vs Accuracy vs PR AUC: Which Evaluation Metric Should You Choose?](https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
 
 ## Learning Materials about Transformer
 ### - Tutorials
