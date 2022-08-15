@@ -40,19 +40,23 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
 
 
 ## Method
-- CNN 残差连接，[how design]
-    - [Bird by Bird using Deep Learning](https://towardsdatascience.com/bird-by-bird-using-deep-learning-4c0fa81365d7)
-- What is [Vision transformer](https://paperswithcode.com/method/vision-transformer)?
+- ### Models: 
+    - CNN
+        - CNN 残差连接，[how design]
+            - [Bird by Bird using Deep Learning](https://towardsdatascience.com/bird-by-bird-using-deep-learning-4c0fa81365d7)
+    - ViT
+        - What is [Vision transformer](https://paperswithcode.com/method/vision-transformer)?
 
-    The Vision Transformer, or ViT, is a model for image classification that employs a Transformer-like architecture over patches of the image. An image is split into fixed-size patches, each of them are then linearly embedded, position embeddings are added, and the resulting sequence of vectors is fed to a standard Transformer encoder. In order to perform classification, the standard approach of adding an extra learnable “classification token” to the sequence is used.
+            The Vision Transformer, or ViT, is a model for image classification that employs a Transformer-like architecture over patches of the image. An image is split into fixed-size patches, each of them are then linearly embedded, position embeddings are added, and the resulting sequence of vectors is fed to a standard Transformer encoder. In order to perform classification, the standard approach of adding an extra learnable “classification token” to the sequence is used.
 
-- What is [DeiT](https://paperswithcode.com/paper/deit-iii-revenge-of-the-vit)
+        - What is [DeiT](https://paperswithcode.com/paper/deit-iii-revenge-of-the-vit)
 
 
-- How to do the data preprocessing?
-
-    - how to do data augmentation?
-
+- ### Other methods:
+    - Preprocessing:
+        - data augmentation
+    - Training:
+        - schedulers [Kaggle explain: One-cycle learning rate schedulers](https://www.kaggle.com/code/residentmario/one-cycle-learning-rate-schedulers/notebook): This cyclic learning rate policy is meant to be applied over one entire learning cycle: **e.g. one epoch**. Fast.AI calls this the one cycle training. After each cycle, you are supposed to re-apply the learning rate finder to find new good values, and then fit another cycle, until no more training occurs; hence the name. Use ```optimizer.step()``` before ```scheduler.step()```. Also, for ```OneCycleLR```, you need to run ```scheduler.step()``` after every step.
 
 
 ## Experiment
