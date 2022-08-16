@@ -42,7 +42,7 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
 ## Method
 - ### Models: 
     - CNN
-        - [Natural Image Classification using ResNet9 Model](https://medium.com/swlh/natural-image-classification-using-resnet9-model-6f9dc924cd6d), [full code here](https://jovian.ai/rashissharma1701/image-classification-resnet9/v/8?utm_source=embed)
+        - [Natural Image Classification using ResNet9 Model](https://medium.com/swlh/natural-image-classification-using-resnet9-model-6f9dc924cd6d), and refer to the [full code here](https://jovian.ai/rashissharma1701/image-classification-resnet9/v/8?utm_source=embed)
         - CNN 残差连接，[how design]
             - [Bird by Bird using Deep Learning](https://towardsdatascience.com/bird-by-bird-using-deep-learning-4c0fa81365d7)
     - ViT
