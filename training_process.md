@@ -28,6 +28,13 @@
 - data augmentation
 - size of train and test dataset = 7:3
 
+![deit_result5](/src/results/deit_result5.jpeg)
+- optimizer = torch.optim.AdamW(model.head.parameters(), lr=0.001) change to model.parameters()
+- scheduler = StepLR
+- criterion = LabelSmoothingCrossEntropy
+- num_epochs = 10
+- data augmentation
+- size of train and test dataset = 7:3
 
 10015 whole data set:
 - num of each 'dx': 6705 1113 1099 514 327 142 115
