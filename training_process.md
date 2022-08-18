@@ -60,13 +60,13 @@
 - data augmentation (resize 256, centerCrop 224)
 - size of train and test dataset = 7:3
 
-![swin_result2.jpeg](/src/results/swin_result2.jpeg)
+![crossvit_result1.jpeg](/src/results/crossvit_result1.jpeg)
 - model name = swinv2_tiny_patch4_window8_256
 - optimizer = torch.optim.AdamW(model.parameters(), lr=0.001)
 - scheduler = StepLR
 - criterion = LabelSmoothingCrossEntropy
 - num_epochs = 10
-- data augmentation (resize (256,256))
+- data augmentation (resize 256, centerCrop 224)
 - size of train and test dataset = 7:3
 
 10015 whole dataset:
