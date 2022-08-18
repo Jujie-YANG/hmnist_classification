@@ -69,13 +69,38 @@
 - data augmentation (resize 256, centerCrop 224)
 - size of train and test dataset = 7:3
 
-10015 whole dataset:
-- num of each 'dx': 6705 1113 1099 514 327 142 115
 
-train_dataset: 27306 - 34320
-- num of each 'dx': 4656 847 760 363 213 97 79 (not calculated by program)
+## Size: 7:3
+- ### Specific number:
+    - 10015 whole dataset:
+        - num of each 'dx': 6705 1113 1099 514 327 142 115
 
-test_dataset: 24306 - 27305
-- num of each 'dx': 2049 266 339 151 114 45 36 (comment的顺序 not code: 'nv',....) - calculated by excel function
+    - train_dataset: 27306 - 34320
+        - num of each 'dx': 4656 847 760 363 213 97 79 (not calculated by program)
 
+    - test_dataset: 24306 - 27305
+        - num of each 'dx': 2049 266 339 151 114 45 36 (comment的顺序 not code: 'nv',....) - calculated by excel function
+
+- ### Max Acc:
+    - Resnet9: 78.28
+    - Deit: 75.19
+    - Swin: 69.25
+    - CrossViT: 76.07
+
+### Size 8:2
+- ### Specific number:
+    - 10015 whole dataset:
+        - num of each 'dx': 6705 1113 1099 514 327 142 115
+
+    - train_dataset: 26306 - 34320
+        - num of each 'dx': 
+
+    - test_dataset: 24306 - 26305
+        - num of each 'dx': (comment的顺序 not code: 'nv',....) - calculated by excel function
+
+- ### Max Acc:
+    - Resnet9: 78.12
+    - Deit: 77.34
+    - Swin: 72.59
+    - CrossViT: 76.57
 
