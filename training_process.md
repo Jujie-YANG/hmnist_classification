@@ -104,3 +104,20 @@
     - Swin: 72.59
     - CrossViT: 76.57
 
+### Size 9:1
+- ### Specific number:
+    - 10015 whole dataset:
+        - num of each 'dx': 6705 1113 1099 514 327 142 115
+
+    - train_dataset: 25306 - 34320
+        - num of each 'dx': 
+
+    - test_dataset: 24306 - 25305
+        - num of each 'dx': (comment的顺序 not code: 'nv',....) - calculated by excel function
+
+- ### Max Acc:
+    - Resnet9: 78.82
+    - Deit: 75.72
+    - Swin: 68.61
+    - CrossViT: 78.78
+
