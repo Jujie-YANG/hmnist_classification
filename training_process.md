@@ -121,3 +121,44 @@
     - Swin: 68.61
     - CrossViT: 78.78
 
+
+
+
+## Modified params(Official Website) -- All no gradient clip
+- 
+- DeiT:
+    - optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, eps=**1e-8**, weight_decay=**0.05**)
+    - sched = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10, eta_min=**1e-5**)
+    - criterion = LabelSmoothingCrossEntropy()
+
+- Swin:
+    - optimizer = torch.optim.AdamW(model.parameters(), lr=**5e-4**, weight_decay=**0.05**)
+    - sched = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10, eta_min=**5e-6**, last_epoch=-1, verbose=False)
+    - criterion = LabelSmoothingCrossEntropy(**smoothing=0.1**)
+
+- CrossViT:
+    - optimizer = torch.optim.AdamW(model.parameters(), lr=**5e-4**, eps=**1e-8**, weight_decay=0.05)
+    - sched = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10, eta_min=**5e-6**, last_epoch=-1, verbose=False)
+    - criterion = LabelSmoothingCrossEntropy()
+
+
+- ### 7:3
+    - 
+    - DeiT: 78.85 (lr=0.001)
+    - DeiT: 82.43 (lr=5e-4)
+    - Swin: 83.72
+    - CrossViT: 76.62
+
+- ### 8:2
+    - 
+    - DeiT: 80.48 (lr=0.001)
+    - DeiT: 81.12(lr=5e-4)
+    - Swin: 84.35
+    - CrossViT: 77.86
+
+- ### 9:1:
+    - 
+    - DeiT: 80.47 (lr=0.001)
+    - DeiT: 85.07 (lr=5e-4)
+    - Swin: 84.92
+    - CrossViT: 79.02
