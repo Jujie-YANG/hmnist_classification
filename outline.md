@@ -57,13 +57,14 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
         - What is [CrossViT](https://paperswithcode.com/paper/2103-14899)
 
 - ### Other methods:
+    - Transfer Learning?
     - Preprocessing:
         - data augmentation
 
     - Training:
         - Optimizer
             - CNN: Adam (```optimizer = opt_func(model.parameters(), max_lr, weight_decay=weight_decay)``` + gradient clip)
-            
+
             - ViT: optimizer = torch.optim.AdamW(model.parameters(), lr=**5e-4**, eps=**1e-8**, weight_decay=0.05)
 
 
@@ -77,6 +78,7 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
             - CNN: F.cross_entropy()
             - ViT: LabelSmoothingCrossEntropy()
 
+         
 
 ## Experiment
 - CNN Analysis:
