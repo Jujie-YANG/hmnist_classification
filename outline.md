@@ -64,15 +64,13 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
     - Training:
         - Optimizer
             - CNN: Adam (```optimizer = opt_func(model.parameters(), max_lr, weight_decay=weight_decay)``` + gradient clip)
-
-            - ViT: optimizer = torch.optim.AdamW(model.parameters(), lr=**5e-4**, eps=**1e-8**, weight_decay=0.05)
+            - ViT: AdamW
 
 
         - Scheduler: [Kaggle:Learning Rate Schedulers summary](https://www.kaggle.com/code/snnclsr/learning-rate-schedulers/)
-            - CNN: [Kaggle explain: One-cycle learning rate schedulers](https://www.kaggle.com/code/residentmario/one-cycle-learning-rate-schedulers/notebook): This cyclic learning rate policy is meant to be applied over one entire learning cycle: **e.g. one epoch**. Fast.AI calls this the one cycle training. After each cycle, you are supposed to re-apply the learning rate finder to find new good values, and then fit another cycle, until no more training occurs; hence the name. Use ```optimizer.step()``` before ```scheduler.step()```. Also, for ```OneCycleLR```, you need to run ```scheduler.step()``` after every step.
+            - CNN: OneCycleLR [Kaggle explain: One-cycle learning rate schedulers](https://www.kaggle.com/code/residentmario/one-cycle-learning-rate-schedulers/notebook): This cyclic learning rate policy is meant to be applied over one entire learning cycle: **e.g. one epoch**. Fast.AI calls this the one cycle training. After each cycle, you are supposed to re-apply the learning rate finder to find new good values, and then fit another cycle, until no more training occurs; hence the name. Use ```optimizer.step()``` before ```scheduler.step()```. Also, for ```OneCycleLR```, you need to run ```scheduler.step()``` after every step.
 
-            - ViT: ```torch.optim.lr_scheduler.StepLR(optimizer, step_size=3, gamma=0.97)```
-            sched = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10, eta_min=**5e-6**, last_epoch=-1, verbose=False)
+            - ViT: cosineLR
         
         - Criterion:
             - CNN: F.cross_entropy()
@@ -81,7 +79,28 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
          
 
 ## Experiment
-- CNN Analysis:
+- Implementation Details 
+    - Optimizer
+        - CNN: Adam (```optimizer = opt_func(model.parameters(), max_lr, weight_decay=weight_decay)``` + gradient clip)
+
+        - ViT: optimizer = torch.optim.AdamW(model.parameters(), lr=**5e-4**, eps=**1e-8**, weight_decay=0.05)
+
+    - Scheduler:
+        - CNN: ```sched = torch.optim.lr_scheduler.OneCycleLR(optimizer, max_lr, num_epochs=num_epochs, steps_per_epoch=len(train_loader))```
+        - ViT: ```sched = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10, eta_min=**5e-6**, last_epoch=-1, verbose=False)```
+
+    - Criterion:
+            - CNN: F.cross_entropy()
+            - ViT: LabelSmoothingCrossEntropy(smoothing=1)
+    
+
+- A table showing all results
+
+- Accuracy Analysis:
+
+- F1-score Analysis:
+
+<!-- - CNN Analysis:
     - experiment results (metric): Accuracy, Precision, Recall, F1-score
 
 - ViT Analysis:
@@ -90,7 +109,7 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
 - Fined Tuned ViT Analysis:
     - Compare different loss function (timm.loss.LabelSmoothingCrossEntropy vs nn.CrossEntropyLoss)
     - Compare different optimizer (torch.optim.SGD vs torch.optim.Adam)
-    - Compare different regularization (dropout vs L2/weight decay vs L1)
+    - Compare different regularization (dropout vs L2/weight decay vs L1) -->
 
 - Discussion:
     - CNN limitation: Convolutional neural networks (CNN), the most prevailing architecture for deep-learning based medical image analysis, are still functionally limited by their intrinsic inductive biases and inadequate receptive fields.
