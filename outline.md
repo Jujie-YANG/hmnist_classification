@@ -120,6 +120,8 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
 ## Conclusion 
 - Future Work:
     - Preprocessing: remove hair to enhance the training accuracy further
+    - Data augmentation: 
     
 ## Other materials
 - [Face Transformer for Recognition](https://arxiv.org/pdf/2103.14803.pdf): have a look at the Method and Experiment parts
+
