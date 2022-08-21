@@ -113,7 +113,15 @@
         - num of each 'dx': 
 
     - test_dataset: 24306 - 25305
-        - num of each 'dx': (comment的顺序 not code: 'nv',....) - calculated by excel function
+        - num of each 'dx': (test_code.ipynb: comment的顺序 not code: 'nv',....) - calculated by excel function
+        - but every f_score output is in the order of the code: 
+            - 0 == "akiec"
+            - 1 == "bcc"
+            - 2 == "bkl"
+            - 3 == "df"
+            - 4 == "mel"
+            - 5 == "nv"
+            - 6 == "vasc"
 
 - ### Max Acc:
     - Resnet9: 78.82
@@ -162,3 +170,11 @@
     - DeiT: 85.07 (lr=5e-4)
     - Swin: 84.92
     - CrossViT: 79.02
+
+| Models            | Overall Accuracy | f_score for akiec | f_score for bcc | f_score for bkl| f_score for df | f_score for mel | f_score for nv| f_score for vasc|
+| :----:            |    :----:   |        :----: |:----: | :----:| :----:|:----: | :----:|:----: |
+| Resnet9           |             |               | | | | | | |
+| Deit              |             |               | | | | | | |
+| Swin Transformer  |             |               | | | | | | |
+| CrossViT          |             |               | | | | | | |
+ 
