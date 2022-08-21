@@ -45,6 +45,8 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
         - [Natural Image Classification using ResNet9 Model](https://medium.com/swlh/natural-image-classification-using-resnet9-model-6f9dc924cd6d), and refer to the [full code here](https://jovian.ai/rashissharma1701/image-classification-resnet9/v/8?utm_source=embed)
         - CNN 残差连接，[how design]
             - [Bird by Bird using Deep Learning](https://towardsdatascience.com/bird-by-bird-using-deep-learning-4c0fa81365d7)
+        - [ResNet50 how does it look like](https://towardsdatascience.com/residual-networks-resnets-cb474c7c834a#:~:text=The%20identity%20block%20is%20the,a%5Bl%2B2%5D).): convolutional block and Identity block.
+
     - ViT
         - What is [Vision transformer](https://paperswithcode.com/method/vision-transformer)?
 
