@@ -152,27 +152,27 @@
 
 - ### 7:3
     - 
-    - DeiT: 78.85 (lr=0.001)
+    <!-- - DeiT: 78.85 (lr=0.001) -->
     - DeiT: 82.43 (lr=5e-4)
     - Swin: 83.72
     - CrossViT: 76.62
 
 - ### 8:2
     - 
-    - DeiT: 80.48 (lr=0.001)
+    <!-- - DeiT: 80.48 (lr=0.001) -->
     - DeiT: 81.12(lr=5e-4)
     - Swin: 84.35
     - CrossViT: 77.86
 
 - ### 9:1:
     - 
-    - DeiT: 80.47 (lr=0.001)
+    <!-- - DeiT: 80.47 (lr=0.001) -->
     - DeiT: 85.07 (lr=5e-4)
     - Swin: 84.92
     - CrossViT: 79.02
 
 | Models            | Overall Accuracy | f_score for akiec | f_score for bcc | f_score for bkl| f_score for df | f_score for mel | f_score for nv| f_score for vasc|
-| :----:            |    :----:   |        :----: |:----: | :----:| :----:|:----: | :----:|:----: |
+| :----:  |   :----:  |    :----:   |    :----:  |  :----:  |   :----:  |   :----:   |  :----:  |   :----:  |
 | Resnet9           |             |               | | | | | | |
 | Deit              |             |               | | | | | | |
 | Swin Transformer  |             |               | | | | | | |
