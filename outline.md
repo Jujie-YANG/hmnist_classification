@@ -1,6 +1,8 @@
 # The outline of the essay
 
 ## Introduction
+[皮肤科医生的“第三只眼”——皮肤镜到底有多神奇？](https://www.sohu.com/a/475925479_141656)
+
 Recent years, skin cancer has been one of the most common cancers worldwide [1]. Skin cancer often develops from early pigmented lesions. This often requires many dermatologists to pathologically diagnose whether the pigmented lesions are benign or cancerous. If dermoscopy images can assist dermatologists to understand the imaging features of skin cancer and quickly gain experience in differential diagnosis, it will not only improve the efficiency and accuracy of diagnosis, but also save a lot of human resources. 
 
 Dermoscopy images are also a suitable source for training artificial neural networks to automatically diagnose pigmented skin lesions. This paper will use the state-of-the-art Vision Transformer (ViT) model and its corresponding variants to build an artificial neural network by adopting transfer learning (TL) and performing corresponding fine-tuning processing. A large-size dataset that will be tested is HAM10000 [2], which collects dermoscopic images of different populations and the corresponding labels. The labels are the types of skin diseases marked by different medical diagnostic methods. The performance of the ViT will be compared with custom and pre-trained convolutional neural networks (CNN) including the VGG16 and ResNet-50 deep architectures.
@@ -121,6 +123,9 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
 - Future Work:
     - Preprocessing: remove hair to enhance the training accuracy further
     - Data augmentation: 
+        - [Automating the Art of Data Augmentation](https://hazyresearch.stanford.edu/blog/2020-02-26-data-augmentation-part4)
+        - [The Essential Guide to Data Augmentation in Deep Learning](https://www.v7labs.com/blog/data-augmentation-guide)
+        - [PaperWithCode: Data Augmentation](https://paperswithcode.com/task/data-augmentation)
     
 ## Other materials
 - [Face Transformer for Recognition](https://arxiv.org/pdf/2103.14803.pdf): have a look at the Method and Experiment parts
