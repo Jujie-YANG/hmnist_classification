@@ -94,8 +94,8 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
         - ViT: ```sched = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10, eta_min=**5e-6**, last_epoch=-1, verbose=False)```
 
     - Criterion:
-            - CNN: F.cross_entropy()
-            - ViT: LabelSmoothingCrossEntropy(smoothing=1)
+        - CNN: F.cross_entropy()
+        - ViT: LabelSmoothingCrossEntropy(smoothing=1)
     
 
 - A table showing all results
