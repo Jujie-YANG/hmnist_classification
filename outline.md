@@ -76,7 +76,7 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
 
             - ViT: cosineLR
         
-        - Criterion:
+        - Criterion: (Explain more specifically)
             - CNN: F.cross_entropy()
             - ViT: LabelSmoothingCrossEntropy()
 
