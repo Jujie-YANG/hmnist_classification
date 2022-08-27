@@ -50,13 +50,17 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
         - [ResNet50 how does it look like](https://towardsdatascience.com/residual-networks-resnets-cb474c7c834a#:~:text=The%20identity%20block%20is%20the,a%5Bl%2B2%5D).): convolutional block and Identity block.
 
     - ViT
-        - What is [Vision transformer](https://paperswithcode.com/method/vision-transformer)?
+        - [How the Vision Transformer (ViT) works in 10 minutes: an image is worth 16x16 words](https://theaisummer.com/vision-transformer/)
+        - What is [Vision transformer](https://paperswithcode.com/method/vision-transformer)
 
             The Vision Transformer, or ViT, is a model for image classification that employs a Transformer-like architecture over patches of the image. An image is split into fixed-size patches, each of them are then linearly embedded, position embeddings are added, and the resulting sequence of vectors is fed to a standard Transformer encoder. In order to perform classification, the standard approach of adding an extra learnable “classification token” to the sequence is used.
+
+            - [Blog: Review: Vision Transformer (ViT)](https://sh-tsang.medium.com/review-vision-transformer-vit-406568603de0)
 
         - What is [DeiT](https://paperswithcode.com/paper/deit-iii-revenge-of-the-vit)
 
         - What is [Swin Transformer(version1)](https://paperswithcode.com/paper/swin-transformer-hierarchical-vision)
+            - [A Comprehensive Guide to Microsoft’s Swin Transformer](https://towardsdatascience.com/a-comprehensive-guide-to-swin-transformer-64965f89d14c)
 
         - What is [CrossViT](https://paperswithcode.com/paper/2103-14899)
 
