@@ -81,6 +81,12 @@
     - test_dataset: 24306 - 27305
         - num of each 'dx': 2049 266 339 151 114 45 36 (comment的顺序 not code: 'nv',....) - calculated by excel function
 
+- ### train_dataset size per class(nv, mel, bkl, bcc, akiec, vasc and df):
+    - 7:3: 4656 847 760 363 213 97 79
+    - 8:2: 5334 941 870 416 252 110 92
+    - 9:1: 6020 1022 988 462 291 128 104
+
+
 - ### Max Acc:
     - Resnet9: 78.28
     - Deit: 75.19
