@@ -46,6 +46,8 @@
     - PatchConvnet (Augmenting Convolutional networks with attention-based aggregation) [bib]
     - 3Things (Three things everyone should know about Vision Transformers), ECCV 2022 [bib]
     - DeiT III (DeiT III: Revenge of the ViT), ECCV 2022 [**bib**]
+  
+  - ***[jankrepl/mildlyoverfitted](https://github.com/jankrepl/mildlyoverfitted)***: the GitHub containing paper implementations from scratch and machine learning tutorials. Here is the corresponding [YouTube video custom ViT implementation](https://www.youtube.com/watch?v=ovB0ddFtzzA&ab_channel=mildlyoverfitted)
 
 
 - ### Code notebook:
