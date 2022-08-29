@@ -83,6 +83,8 @@
 
 - [Transformers Explained Visually — Not Just How, but Why They Work So Well](https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3)
 
+- [CSDN:【解析】Vision Transformer 在图像分类中的应用](https://blog.csdn.net/ViatorSun/article/details/115586005)
+
 ## Learning Materials about CNN
 ### - Websites
 - [PyTorch official website: Train a CNN classifier](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html) and its corresponding [colab code notebook](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/17a7c7cb80916fcdf921097825a0f562/cifar10_tutorial.ipynb?hl=en#scrollTo=Mwf3hCS855qn)
