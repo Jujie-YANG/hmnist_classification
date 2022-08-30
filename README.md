@@ -22,22 +22,22 @@
 - ### GitHub models:(Remember to reference them if written on a paper)
 
   - ***[timm implementation](https://github.com/rwightman/pytorch-image-models)***:
+    - About: PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet 
+    - For more refer to the [timm documentation](https://rwightman.github.io/pytorch-image-models/)
 
-    About: PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more refer to the [timm documentation](https://rwightman.github.io/pytorch-image-models/)
   - ***[lucidrains implementation](https://github.com/lucidrains/vit-pytorch)***:
 
-    About: Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch.
+    - About: Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch.
+    - Significance is further explained in [Yannic Kilcher's](https://www.youtube.com/watch?v=TrdevFK_am4) video.
+    - For a Pytorch implementation with pretrained models, please see Ross Wightman's repository [here(timm implementation)](https://github.com/rwightman/pytorch-image-models)
+    - The official Jax repository is [here(Google's repository for the ViT model)](https://github.com/google-research/vision_transformer).
 
-    Significance is further explained in [Yannic Kilcher's](https://www.youtube.com/watch?v=TrdevFK_am4) video.
-
-    For a Pytorch implementation with pretrained models, please see Ross Wightman's repository [here(timm implementation)](https://github.com/rwightman/pytorch-image-models)
-
-    The official Jax repository is [here(Google's repository for the ViT model)](https://github.com/google-research/vision_transformer).
   - ***[jeonsworld/ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch)***:
 
     Pytorch reimplementation of [Google's repository for the ViT model](https://github.com/google-research/vision_transformer) that was released with the paper [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 
     This paper show that Transformers applied directly to image patches and pre-trained on large datasets work really well on image recognition task.
+    
   - ***[Facebook official DeiT repository](https://github.com/facebookresearch/deit)***: 
     include models:
     - DeiT Data-Efficient Image Transformers, ICML 2021 [bib]
