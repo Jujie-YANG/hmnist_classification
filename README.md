@@ -10,8 +10,8 @@
 - ### CNN:
   - ResNet9
 - ### ViT:
-  - DeiT (deit_tiny_patch16_224)
-  - Swin Transformer (swin_tiny_patch4_window7_224)
+  - [DeiT](https://github.com/facebookresearch/deit) (deit_tiny_patch16_224)
+  - [Swin Transformer](https://github.com/microsoft/Swin-Transformer/tree/2622619f70760b60a42b996f5fcbe7c9d2e7ca57) (swin_tiny_patch4_window7_224)
   - [CrossViT](https://github.com/rishikksh20/CrossViT-pytorch)
 
 ## Useful PyTorch Implementation of ViT:(Remember to reference it if written on a paper):
