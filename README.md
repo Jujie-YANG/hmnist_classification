@@ -59,3 +59,8 @@
 - Make the dermoscopy image dataset more balanced:
   - One way is to input more manully labeled images
   - the other is to consider using GAN to produce more data
+- Preprocessing: remove hair to enhance the training accuracy further
+- Data augmentation: 
+  - [Automating the Art of Data Augmentation](https://hazyresearch.stanford.edu/blog/2020-02-26-data-augmentation-part4)
+  - [The Essential Guide to Data Augmentation in Deep Learning](https://www.v7labs.com/blog/data-augmentation-guide)
+  - [PaperWithCode: Data Augmentation](https://paperswithcode.com/task/data-augmentation)
