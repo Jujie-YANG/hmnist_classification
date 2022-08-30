@@ -1,4 +1,4 @@
-# hmnist_classification
+# Leveraging CNN and Vision Transformer with Transfer Learning to Diagnose Pigmented Skin Lesions
 
 ## Dataset:
 [Skin Cancer MNIST: HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000): a large collection of multi-source dermatoscopic images of pigmented lesions (Downloaded in the Kaggle)
