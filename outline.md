@@ -65,7 +65,6 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
         - What is [CrossViT](https://paperswithcode.com/paper/2103-14899)
 
 - ### Other methods:
-    - Transfer Learning?
     - Preprocessing:
         - data augmentation
 
@@ -125,11 +124,10 @@ VGG16 is a pre-trained CNN model which is used for image classification. It is t
 
 ## Conclusion 
 - Future Work:
-    - Preprocessing: remove hair to enhance the training accuracy further
-    - Data augmentation: 
-        - [Automating the Art of Data Augmentation](https://hazyresearch.stanford.edu/blog/2020-02-26-data-augmentation-part4)
-        - [The Essential Guide to Data Augmentation in Deep Learning](https://www.v7labs.com/blog/data-augmentation-guide)
-        - [PaperWithCode: Data Augmentation](https://paperswithcode.com/task/data-augmentation)
+    - Make the dermoscopy image dataset more balanced:
+        - One way is to input more manully labeled images
+        - the other is to consider using GAN to produce more data
+    - For more future work, refer to [Readme.md](https://github.com/Jujie-YANG/hmnist_classification)
     
 ## Other materials
 - [Face Transformer for Recognition](https://arxiv.org/pdf/2103.14803.pdf): have a look at the Method and Experiment parts
