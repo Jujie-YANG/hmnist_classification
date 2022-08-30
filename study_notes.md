@@ -1,5 +1,5 @@
 # Study Notes
-## Small points
+## Useful materials regarding to the process of writing code
 - ### DataLoader(Preprocessing):
   - [第五章——Pytorch中常用的工具](https://blog.csdn.net/zhenaoxi1077/article/details/80953227)：torch.utils.data.Dataset, torchvision.transforms, torch.utils.data.DataLoader, torch.utils.data.sampler
 
@@ -42,7 +42,7 @@
     - torch.no_grad() impacts the autograd engine and deactivate it. It will reduce memory usage and speed up computations but you won’t be able to backprop (which you don’t want in an eval script).
 
 
-## Notes
+## Other small points
 - ```plt.imshow(np.transpose(img.numpy(),(1,2,0)))``` : plt: (width, height, channel) e.g. torch.size(3,64,64) -> (64,64,3)
 - [Difference between view, reshape, transpose and permute in PyTorch](https://jdhao.github.io/2019/07/10/pytorch_view_reshape_transpose_permute/): 
         ```
@@ -54,16 +54,15 @@
 
 - [torch.squeeze and torch.unsqueeze – usage and code examples](https://linuxpip.org/pytorch-squeeze-unsqueeze/): The **squeeze** method "returns a tensor with all the dimensions of input of size 1 removed", while **unsqueeze** "returns a new tensor with a dimension of size one inserted at the specified position"
 
-## Metrics (F1 Score)
-- [Confusion Matrix, Accuracy, Precision, Recall, F1 Score](https://medium.com/analytics-vidhya/confusion-matrix-accuracy-precision-recall-f1-score-ade299cf63cd)
+## Materials about Metrics (F1 Score)
+- Blogs:
+  - [Confusion Matrix, Accuracy, Precision, Recall, F1 Score](https://medium.com/analytics-vidhya/confusion-matrix-accuracy-precision-recall-f1-score-ade299cf63cd)
+  - [F-1 Score for Multi-Class Classification](https://www.baeldung.com/cs/multi-class-f1-score)
+  - [F1 Score vs ROC AUC vs Accuracy vs PR AUC: Which Evaluation Metric Should You Choose?](https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
+  - [Accuracy vs. F1-Score](https://medium.com/analytics-vidhya/accuracy-vs-f1-score-6258237beca2): **1.** Accuracy is used when the True Positives and True negatives are more important while F1-score is used when the False Negatives and False Positives are crucial **2.** Accuracy can be used when the class distribution is similar while F1-score is a better metric when there are imbalanced classes as in the above case. **3.** In most real-life classification problems, imbalanced class distribution exists and thus F1-score is a better metric to evaluate our model on.
 
-- [F-1 Score for Multi-Class Classification](https://www.baeldung.com/cs/multi-class-f1-score)
-
-- [F1 Score vs ROC AUC vs Accuracy vs PR AUC: Which Evaluation Metric Should You Choose?](https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
-
-- [Accuracy vs. F1-Score](https://medium.com/analytics-vidhya/accuracy-vs-f1-score-6258237beca2): **1.** Accuracy is used when the True Positives and True negatives are more important while F1-score is used when the False Negatives and False Positives are crucial **2.** Accuracy can be used when the class distribution is similar while F1-score is a better metric when there are imbalanced classes as in the above case. **3.** In most real-life classification problems, imbalanced class distribution exists and thus F1-score is a better metric to evaluate our model on.
-
-- [sklearn.metrics.precision_recall_fscore_support](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html): Compute precision, recall, F-measure and support for each class.
+- How to calculate using sklearn with code:
+  - [sklearn.metrics.precision_recall_fscore_support](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html): Compute precision, recall, F-measure and support for each class.
 
 ## Learning Materials about Transformer
 ### - Tutorials
@@ -92,15 +91,15 @@
 
 ## Colab Use
 - [How to save our model to Google Drive and reuse it](https://medium.com/@ml_kid/how-to-save-our-model-to-google-drive-and-reuse-it-2c1028058cb2):
-```
-# Mount Google Drive
-from google.colab import drive
-drive.mount('/content/drive', force_remount=True)
-# Save
-torch.save(model.state_dict(), '/content/drive/MyDrive/kaggle/save_model/deit_tiny_patch16_224.pth')
-# Load
-model.load_state_dict(torch.load(path))
-```
+  ```
+  # Mount Google Drive
+  from google.colab import drive
+  drive.mount('/content/drive', force_remount=True)
+  # Save
+  torch.save(model.state_dict(), '/content/drive/MyDrive/kaggle/save_model/deit_tiny_patch16_224.pth')
+  # Load
+  model.load_state_dict(torch.load(path))
+  ```
 
 ## Others
 - [GitHub repo: pytorch/examples](https://github.com/pytorch/examples):  is a repository showcasing examples of using PyTorch in Vision, Text, Reinforcement Learning, etc.
