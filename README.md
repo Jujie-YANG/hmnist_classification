@@ -7,12 +7,12 @@
 [Vision Transformer(paperswithcode)-- refer to this website for more SOTA models](https://paperswithcode.com/method/vision-transformer): The Vision Transformer, or ViT, is a model for image classification that employs a Transformer-like architecture over patches of the image. An image is split into fixed-size patches, each of them are then linearly embedded, position embeddings are added, and the resulting sequence of vectors is fed to a standard Transformer encoder. In order to perform classification, the standard approach of adding an extra learnable “classification token” to the sequence is used.
 
 ## Researched models in this repo:
-- CNN:
+- ### CNN:
   - ResNet9
-- ViT:
-  - DeiT
-  - Swin Transformer
-  - CrossViT
+- ### ViT:
+  - DeiT (deit_tiny_patch16_224)
+  - Swin Transformer (swin_tiny_patch4_window7_224)
+  - [CrossViT](https://github.com/rishikksh20/CrossViT-pytorch)
 
 ## Useful PyTorch Implementation of ViT:(Remember to reference it if written on a paper):
 
@@ -54,21 +54,8 @@
     - [Kaggle: Vision Transformers in PyTorch | DeIT](https://www.kaggle.com/code/pdochannel/vision-transformers-in-pytorch-deit/notebook?scriptVersionId=85324242): This notebook trains a Vision Transformer on the Butterfly dataset.
     - [Kaggle: Swin Transformer in PyTorch](https://www.kaggle.com/code/pdochannel/swin-transformer-in-pytorch/notebook): This notebook trains a Vision Transformer on the Butterfly dataset.
 
-## Params
-- ### CNN
-    - #### Resnet
-    - #### vgg
-    - #### [inception-V3](https://arxiv.org/abs/1512.00567)
-
-- ### ViT 
-    - #### DeIT: (deit_tiny_patch16_224.ipynb)
-        - resize(224,224)
-        - batch_size = 128
-
-    - #### Swin-ViT: (swin_tiny_patch4_window7_224)
-        - resize:(224,224)
-        - batch_size = 64 
-        
-    - #### [CrossViT](https://github.com/rishikksh20/CrossViT-pytorch): 
-        - size:224 (resize256 CenterCrop224)
-        - batch_size = 64
+## Future Work
+- Compare other CNN models with SOTA ViT models. e.g. [vgg](https://paperswithcode.com/method/vgg), [inception-V3](https://arxiv.org/abs/1512.00567)
+- Make the dermoscopy image dataset more balanced:
+  - One way is to input more manully labeled images
+  - the other is to consider using GAN to produce more data
