@@ -9,21 +9,17 @@
 [Vision Transformer(paperswithcode)-- refer to this website for more SOTA models](https://paperswithcode.com/method/vision-transformer): The Vision Transformer, or ViT, is a model for image classification that employs a Transformer-like architecture over patches of the image. An image is split into fixed-size patches, each of them are then linearly embedded, position embeddings are added, and the resulting sequence of vectors is fed to a standard Transformer encoder. In order to perform classification, the standard approach of adding an extra learnable “classification token” to the sequence is used.
 
 - ### Transformer tutorials:
-
   - [Transformer Model (1/2): Attention Layers](https://www.youtube.com/watch?v=FC8PziPmxnQ)
   - [Transformer Model (2/2): Build a Deep Neural Network](https://www.youtube.com/watch?v=J4H6A4-dvhE)
-- ### ViT Documentation:
-
-  - ***[timm Pytorch Documentation](https://rwightman.github.io/pytorch-image-models/)***: Py**T**orch **Im**age **M**odels (timm) is a collection of image models, layers, utilities, optimizers, schedulers, data-loaders / augmentations, and reference training / validation scripts that aim to pull together a wide variety of SOTA models with ability to reproduce ImageNet training results. -- All model architecture families include variants with pretrained weights.
-
-    [pytorch-image-models/timm/models/vision_transformer.py](https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/vision_transformer.py)
-
-    Reference code and pretrained weights:[Google's repository for the ViT model](https://github.com/google-research/vision_transformer)
+    
 - ### Useful PyTorch Implementation of ViT:(Remember to reference it if written on a paper)
 
   - ***[timm implementation](https://github.com/rwightman/pytorch-image-models)***:
     - About: PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet 
-    - For more refer to the [timm documentation](https://rwightman.github.io/pytorch-image-models/)
+    - For more refer to the ***[timm Pytorch Documentation](https://rwightman.github.io/pytorch-image-models/)***:
+      - Py**T**orch **Im**age **M**odels (timm) is a collection of image models, layers, utilities, optimizers, schedulers, data-loaders / augmentations, and reference training / validation scripts that aim to pull together a wide variety of SOTA models with ability to reproduce ImageNet training results. -- All model architecture families include variants with pretrained weights.
+      - timm's vit source code: [pytorch-image-models/timm/models/vision_transformer.py](https://github.com/rwightman/pytorch-image-models/blob/master/timm/models/vision_transformer.py)
+      - To obtain reference code and pretrained weights, see [Google's repository for the ViT model](https://github.com/google-research/vision_transformer)
 
   - ***[lucidrains implementation](https://github.com/lucidrains/vit-pytorch)***:
 
