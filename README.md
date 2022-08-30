@@ -7,12 +7,8 @@
 ## ViT related materials:
 
 [Vision Transformer(paperswithcode)-- refer to this website for more SOTA models](https://paperswithcode.com/method/vision-transformer): The Vision Transformer, or ViT, is a model for image classification that employs a Transformer-like architecture over patches of the image. An image is split into fixed-size patches, each of them are then linearly embedded, position embeddings are added, and the resulting sequence of vectors is fed to a standard Transformer encoder. In order to perform classification, the standard approach of adding an extra learnable “classification token” to the sequence is used.
-
-- ### Transformer tutorials:
-  - [Transformer Model (1/2): Attention Layers](https://www.youtube.com/watch?v=FC8PziPmxnQ)
-  - [Transformer Model (2/2): Build a Deep Neural Network](https://www.youtube.com/watch?v=J4H6A4-dvhE)
     
-- ### Useful PyTorch Implementation of ViT:(Remember to reference it if written on a paper)
+### Useful PyTorch Implementation of ViT:(Remember to reference it if written on a paper)
 
   - ***[timm implementation](https://github.com/rwightman/pytorch-image-models)***:
     - About: PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet 
