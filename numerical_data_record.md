@@ -1,4 +1,4 @@
-![deit_result1](/src/results/deit_result1.jpeg)
+<!-- ![deit_result1](/src/results/deit_result1.jpeg)
 - optimizer = AdamW
 - scheduler = StepLR
 - criterion = Cross_Entropy
@@ -67,8 +67,7 @@
 - criterion = LabelSmoothingCrossEntropy
 - num_epochs = 10
 - data augmentation (resize 256, centerCrop 224)
-- size of train and test dataset = 7:3
-
+- size of train and test dataset = 7:3 -->
 
 ## Index of image number for three experimental groups:
 - size: 7:3
@@ -98,7 +97,7 @@
     - 5 == "nv"
     - 6 == "vasc"
 
-## Max Acc (not modified):
+## Max Acc for all models (Three ViT models use the same params as ResNet9):
 - 7:3:
     - Resnet9: 78.28
     - Deit: 75.19
