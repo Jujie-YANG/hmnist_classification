@@ -98,6 +98,9 @@
     - 6 == "vasc"
 
 ## Max Acc for all models (Three ViT models use the same params as ResNet9):
+- Setting params:
+    - optimizer = torch.optim.Adam
+    - scheduler = OneCycleLR
 - 7:3:
     - Resnet9: 78.28
     - Deit: 75.19
@@ -130,7 +133,7 @@
     - sched = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10, eta_min=**5e-6**, last_epoch=-1, verbose=False)
     - criterion = LabelSmoothingCrossEntropy()
 
-
+## Max Acc for three modified ViT models:
 - ### 7:3
     <!-- - DeiT: 78.85 (lr=0.001) -->
     - DeiT: 82.43 (lr=5e-4)
