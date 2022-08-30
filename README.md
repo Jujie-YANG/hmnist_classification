@@ -1,14 +1,12 @@
 # hmnist_classification
 
-## Dataset
-
+## Dataset:
 [Skin Cancer MNIST: HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000): a large collection of multi-source dermatoscopic images of pigmented lesions (Downloaded in the Kaggle)
 
-## ViT related materials:
-
+## ViT Introduction:
 [Vision Transformer(paperswithcode)-- refer to this website for more SOTA models](https://paperswithcode.com/method/vision-transformer): The Vision Transformer, or ViT, is a model for image classification that employs a Transformer-like architecture over patches of the image. An image is split into fixed-size patches, each of them are then linearly embedded, position embeddings are added, and the resulting sequence of vectors is fed to a standard Transformer encoder. In order to perform classification, the standard approach of adding an extra learnable “classification token” to the sequence is used.
     
-### Useful PyTorch Implementation of ViT:(Remember to reference it if written on a paper)
+## Useful PyTorch Implementation of ViT:(Remember to reference it if written on a paper):
 
   - ***[timm implementation](https://github.com/rwightman/pytorch-image-models)***:
     - About: PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet 
