@@ -39,13 +39,10 @@
   - ***[jeonsworld/ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch)***:
     - A Pytorch reimplementation of [Google's repository for the ViT model](https://github.com/google-research/vision_transformer) that was released with the paper [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)This paper show that Transformers applied directly to image patches and pre-trained on large datasets work really well on image recognition task.
 
-- ### Code notebook:
-
+## Kaggle useful code notebook:
   - CNN:
-
     - [Kaggle: ResNet9 HMNIST Classification](https://www.kaggle.com/code/sidharthsinha/resnet9-hmnist-classification)
   - ViT:
-
     - [Kaggle: Vision Transformers in PyTorch | DeIT](https://www.kaggle.com/code/pdochannel/vision-transformers-in-pytorch-deit/notebook?scriptVersionId=85324242): This notebook trains a Vision Transformer on the Butterfly dataset.
     - [Kaggle: Swin Transformer in PyTorch](https://www.kaggle.com/code/pdochannel/swin-transformer-in-pytorch/notebook): This notebook trains a Vision Transformer on the Butterfly dataset.
 
