@@ -70,6 +70,17 @@
 - size of train and test dataset = 7:3
 
 
+## Index of image number for three experimental groups:
+- size: 7:3
+    - train_dataset: 27306 - 34320
+    - test_dataset: 24306 - 27305
+- size: 8:2
+    - train_dataset: 26306 - 34320
+    - test_dataset: 24306 - 26305
+- size: 8:2
+    - train_dataset: 25306 - 34320
+    - test_dataset: 24306 - 25305
+
 ## Size: 7:3
 - ### Specific number:
     - 10015 whole dataset:
