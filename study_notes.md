@@ -102,5 +102,7 @@
   ```
 
 ## Others
-- [GitHub repo: pytorch/examples](https://github.com/pytorch/examples):  is a repository showcasing examples of using PyTorch in Vision, Text, Reinforcement Learning, etc.
-
+- ### GitHub:
+  - [Pytorch/examples](https://github.com/pytorch/examples):  is a repository showcasing examples of using PyTorch in Vision, Text, Reinforcement Learning, etc.
+- ### Blog:
+  - [Deep Learning（深度学习）系列：（三）训练过程、常用模型或方法](https://www.aboutyun.com/thread-16799-1-1.html): Deep Learning的基本思想、训练过程、常用模型或者方法
